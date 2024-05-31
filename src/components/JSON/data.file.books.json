@@ -1,7 +1,7 @@
  [
     {
     "id": 1,
-    "coverImage": "./src/assets/poverty.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/poverty.jpg",
     "title": "1. No Poverty",
     "titleDisc": "Sustainable Development Goal 1 (SDG 1 or Global Goal 1)  one of the 17 Sustainable Development Goals established by the United Nations in 2015, calls for the end of poverty in all forms. The official wording is: 'No Poverty'. Member countries have pledged to 'Leave No One Behind': underlying the goal is a 'powerful commitment to leave no one behind and to reach those farthest behind first'. Sustainable",
     "information": "Mission Statement \n 'End poverty in all its forms everywhere' \n Type of Project \n Non-Profit \n Location \n Global \n Founder \n United Nations \n Established \n 2015",
@@ -10,7 +10,7 @@
 },
 {
     "id": 2,
-    "coverImage": "./src/assets/zerohunger.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/zerohunger.jpg",
     "title": "2. Zero Hunger",
     "titleDisc": "\"Zero Hunger\" is a fundamental goal embedded within the United Nations Sustainable Development Goals (SDGs) that aims to eradicate hunger and ensure food security for all by the year 2030. This goal underscores the global commitment to address the pervasive issue of hunger, which continues to plague millions of individuals worldwide. Achieving zero hunger is not only a moral imperative but also a critical step towards fostering sustainable development and improving the quality of life for communities around the globe.",
     "information": "",
@@ -19,7 +19,7 @@
 },
 {
     "id": 3,
-    "coverImage": "./src/assets/goodhealth.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/goodhealth.jpg",
     "title": "3. good health & well",
     "titleDisc": " ENSURE HEALTHY LIVES AND PROMOTE WELL-BEING FOR ALL AT ALL AGES.\nOver the last 15 years, the number of childhood deaths has been cut in half. This proves that it is possible to win the fight against almost every disease. Still, we are spending an astonishing amount of money and resources on treating illnesses that are surprisingly easy to prevent. The new goal for worldwide Good Health promotes healthy lifestyles, preventive measures and modern, efficient healthcare for everyone.\n",
    "information": "THE TARGETS\nEveryone can help to make sure that we meet the Global Goals. Use these thirteen targets to create action to promote health and well-being for all.\n",
@@ -28,7 +28,7 @@
 },
 {
     "id": 4,
-    "coverImage": "./src/assets/qualityeduc.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/qualityeduc.JPG",
     "title": "4. Quality Education",
     "titleDisc": "ENSURE INCLUSIVE AND EQUITABLE QUALITY EDUCATION AND PROMOTE LIFELONG LEARNING OPPORTUNITIES FOR ALL.`",
     "information":"Education liberates the intellect, unlocks the imagination and is fundamental for self-respect. It is the key to prosperity and opens a world of opportunities, making it possible for each of us to contribute to a progressive, healthy society. Learning benefits every human being and should be available to all.",
@@ -37,7 +37,7 @@
 },
 {
     "id": 5,
-    "coverImage": "./src/assets/genderequality.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/genderequality.jpg",
     "title": "5. Gender Equality",
     "titleDisc": "GENDER EQUALITY",
     "information":"ACHIEVE GENDER EQUALITY AND EMPOWER ALL WOMEN AND GIRLS.\nGender bias is undermining our social fabric and devalues all of us. It is not just a human rights issue; it is a tremendous waste of the world’s human potential. By denying women equal rights, we deny half the population a chance to live life at its fullest. Political, economic and social equality for women will benefit all the world’s citizens. Together we can eradicate prejudice and work for equal rights and respect for all.\n",
@@ -46,7 +46,7 @@
 },
 {
     "id": 6,
-    "coverImage": "./src/assets/cleanwater.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/cleanwater.jpg",
     "title": "6. Clean Water and Sanitaion",
     "titleDisc": "Goal 6: Clean Water and Sanitation",
     "information":"SDG 6 stands for \"Sustainable Development Goal 6,\" which is one of the 17 global goals established by the United Nations in 2015 as part of the 2030 Agenda for Sustainable Development. These goals are a universal call to action to end poverty, protect the planet, and ensure prosperity for all. SDG 6 specifically focuses on ensuring availability and sustainable management of water and sanitation for all. It addresses a range of issues related to water resources, water quality, sanitation, and hygiene. The primary targets and objectives of SDG 6 are as follows:",
@@ -55,7 +55,7 @@
 },
 {
     "id": 7,
-    "coverImage": "./src/assets/cleanenergy.png",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/cleanenergy.png",
     "title": "7. Affordable and Clean Energy",
     "titleDisc": "\nRenewable energy solutions are becoming cheaper, more reliable and more efficient every day.Our current reliance on fossil fuels is unsustainable and harmful to the planet, which is why we have to change the way we produce and consume energy. Implementing these new energy solutions as fast as possible is essential to counter climate change, one of the biggest threats to our own survival.\n",
     "information":"ENSURE ACCESS TO AFFORDABLE, RELIABLE, SUSTAINABLE AND MODERN ENERGY FOR ALL.",
@@ -64,7 +64,7 @@
 },
 {
     "id": 8,
-    "coverImage": "./src/assets/decentwork.JPG",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/decentwork.JPG",
     "title": "8. Decent Work & Economic Growth",
     "titleDisc": " Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all.",
     "information":"What's the goal here?",
@@ -73,7 +73,7 @@
 },
 {
     "id": 9,
-    "coverImage": "./src/assets/industry.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/industry.jpg",
     "title": "9. Innovation & Infrastructure",
     "titleDisc": "Sustainable Development Goal 9 (Goal 9 or SDG 9) is about \"industry, innovation and infrastructure\" and is one of the 17 Sustainable Development Goals adopted by the United Nations General Assembly in 2015.[1] SDG 9 aims to build resilient infrastructure, promote sustainable industrialization and foster innovation.",
     
@@ -83,7 +83,7 @@
 },
 {
     "id": 10,
-    "coverImage": "./src/assets/inequalities.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/inequalities.JPG",
     "title": "10. Reduce Inequalities",
     "titleDisc": "   It involves recognizing the unique challenges faced by different groups and implementing measures to overcome barriers, promote equal rights, and foster inclusive societies where everyone can thrive.\n\nInequalities based on income, sex, age, disability, sexual orientation, race, class, ethnicity, religion and opportunity continue to persist across the world. Inequality threatens long-term social and economic development, harms poverty reduction and destroys people’s sense of fulfillment and self-worth. This, in turn, can breed crime, disease and environmental degradation.\n",
     "information":"'REDUCED INEQUALITIES'",
@@ -92,7 +92,7 @@
 },
 {
     "id": 11,
-    "coverImage": "./src/assets/sustainablecities.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/sustainablecities.JPG",
     "title": "11. Sustainable Cities & Communities",
     "titleDisc": "Sustainable Cities and Communities is a concept that refers to the development of urban areas in ways that promote environmental sustainability, social equity, and economic viability. This includes ensuring that cities are inclusive, safe, resilient, and sustainable for all their inhabitants.\nThe term is widely recognized and promoted by the United Nations (UN) as one of the 17 Sustainable Development Goals (SDGs), specifically SDG 11: \"Make cities and human settlements inclusive, safe, resilient and sustainable.\" This goal aims to address challenges related to urbanization, such as pollution, inadequate infrastructure, and social inequality, while promoting sustainable urban planning and management practices.\nIn the Philippines, sustainable cities and communities are developed through a variety of initiatives and policies aimed at addressing urban challenges and promoting resilient, inclusive, and environmentally friendly urban areas.\nOne key initiative is the \"Pambansang Pabahay\" program, which focuses on increasing the availability of affordable housing and improving urban infrastructure. This program is supported by credit lines and partnerships with private sector entities to boost housing development and enhance urban planning efforts. \nThe Department of Human Settlements and Urban Development (DHSUD) plays a crucial role in this by formulating policies, regulating the housing sector, and assisting local governments with urban planning. The DHSUD has implemented comprehensive land use plans in numerous local government units to foster resilient and sustainable communities.\nMoreover, the UN-Habitat emphasizes the importance of inclusive urbanization in the Philippines. The country faces significant challenges due to rapid urbanization, such as a high rate of informal settlements and vulnerability to natural disasters. UN-Habitat's projects aim to improve urban resilience, upgrade slums, and enhance public services and infrastructure\nOverall, sustainable cities and communities in the Philippines involve collaborative efforts among government agencies, private sectors, and international organizations to address housing shortages, urban poverty, and environmental impacts, ensuring that urban growth is managed effectively and benefits all residents.\n",
     "information":"",
@@ -101,7 +101,7 @@
 },
 {
     "id": 12,
-    "coverImage": "./src/assets/ensure.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/ensure.JPG",
     "title": "12. Consumption & Production",
     "titleDisc": "What is Responsible Consumption and Production?\nResponsible Consumption and Production, outlined as Sustainable Development Goal 12 by the United Nations, focuses on promoting resource and energy efficiency, sustainable infrastructure, and providing access to basic services, green and decent jobs, and a better quality of life for all. Its implementation helps to achieve overall development plans, reduce future economic, environmental, and social costs, strengthen economic competitiveness and reduce poverty.\nResponsible Consumption and Production (SDG 12) is centered on creating more sustainable patterns of consumption and production. It is about doing more and better with less. The goal addresses the importance of reducing the footprint of our consumption and production activities on the natural environment. This includes the responsible management of resources, reducing waste and pollution, and promoting practices that contribute to a circular economy. \nThe second aspect of this SDG involves encouraging individuals, businesses, and governments to rethink how goods are produced and consumed. This involves everything from reducing the use of harmful materials and promoting recycling, to creating sustainable business practices and consumer behaviors that contribute to the conservation of our environment.\n",
     "information":"“Responsible Consumption and Production”",
@@ -110,7 +110,7 @@
 },
 {
     "id": 13,
-    "coverImage": "./src/assets/climate.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/climate.JPG",
     "title": "13. Climate Action",
     "titleDisc": "",
     "information":"",
@@ -119,7 +119,7 @@
 },
 {
     "id": 14,
-    "coverImage": "./src/assets/lifebelow.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/lifebelow.jpg",
     "title": "14. Life Below Water",
     "titleDisc": "Goal 14: Seas, oceans, and marine resources should be preserved and used responsibly.",
     "information":"“Conserve and Sustainably use the oceans, seas and marine resources for sustainable development”",
@@ -128,7 +128,7 @@
 },
 {
     "id": 15,
-    "coverImage": "./src/assets/lifeonland.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/lifeonland.jpg",
     "title": "15. Life on Land",
     "titleDisc": "Goal 15 is about conserving life on land. It is to protect and restore terrestrial\necosystems, sustainably manage forests, combat desertification, and halt and reverse\nland degradation and stop biodiversity loss.\nEarth’s ecosystems are vital for sustaining human life, they contribute to over half of\nglobal GDP and encompass diverse cultural, spiritual, and economic values.\n\nHowever, the world is facing a triple crisis of climate change, pollution and biodiversity\nloss.\nBetween 2015 and 2019, at least 100 million hectares of healthy and productive land\nwere degraded every year, impacting the lives of 1.3 billion people.\nAgricultural expansion is the direct driver of almost 90 per cent of deforestation. This is\nin direct relation to our food systems, and oil palm harvesting accounted for 7 per cent\nof global deforestation from 2000 to 2018.\nGlobal and regional efforts to sustain forest ecosystems as well as their social,\neconomic and environmental functions are essential, in particular for developing\ncountries and the tropics.\nWe need to shift humanity’s relationship with nature to achieve Goal 15, and realise that\nnature is the root of our life of earth. The recently adopted Kunming-Montreal Global\n\nBiodiversity Framework provides renewed impetus for Goal 15, outlining four outcome-\noriented goals to be achieved by 2050 and 23 targets to be achieved by 2030.",
     "information":"",
@@ -137,7 +137,7 @@
 },
 {
     "id": 16,
-    "coverImage": "./src/assets/peace.png",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/peace.png",
     "title": "16. Strong Institutions",
     "titleDisc": "",
     "information":"GOAL 16: 'PEACE, JUSTICE AND STRONG INSTITUTIONS'",
@@ -146,7 +146,7 @@
 },
 {
     "id": 17,
-    "coverImage": "./src/assets/partnership.jpg",
+    "coverImage": "https://f005.backblazeb2.com/file/bookingss/partnership.jpg",
     "title": "17. Partnership for Goals",
     "titleDisc": "Definition of Partnerships for the Goals\nPartnerships for the Goals refers to collaborative efforts among governments, private sector entities, civil society organizations, and other stakeholders to work together in advancing sustainable development. These partnerships leverage different strengths and resources to implement sustainable solutions that tackle poverty, inequality, climate change, and other pressing global issues.\n",
     "information":"Goal 17: 'Partnerships for the goals'",
