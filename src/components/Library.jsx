@@ -347,7 +347,7 @@ function Library() {
                   {bookId.information}
                 </Text>
                 <Text
-                  className="mx-5 p-5 font-montserrat"
+                  className="mx-1 p-2 font-montserrat"
                   mt="2"
                   whiteSpace="pre-wrap"
                 >

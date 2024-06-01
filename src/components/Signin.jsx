@@ -82,7 +82,7 @@ function Signin() {
           </article>
 
           <form
-            className="ssm: px-8 sm:px-28 md:px-24 lg:px-20 grid gap-2 "
+            className="ssm:mb-10 ssm: px-8 sm:px-28 md:px-24 md:mb-2 lg:px-20 grid gap-2 "
             onSubmit={SigninHandle}
           >
             <label className="text-left text-gray-800">Email</label>
