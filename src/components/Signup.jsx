@@ -70,23 +70,26 @@ function Signup() {
       >
         <figure className="ssm: m-1 lg:m-0 rounded-3xl bg-teal-50 pb-6">
           <article className="m-10">
-            <p className="text-3xl text-left font-bebas">Create Account</p>
+            <p className="text-3xl text-left font-bebas text-gray-800">
+              Create Account
+            </p>
           </article>
 
           <form
             className="ssm: px-8 sm:px-28 md:px-24 lg:px-20 grid gap-2 "
             onSubmit={SignupHandle}
           >
-            <label className="text-left">Username</label>
+            <label className="text-left text-gray-800">Email</label>
             <Input
               borderColor={"teal"}
               type="text"
+              placeholder="ex..@gmail.com"
               value={email}
               name="email"
               onChange={(e) => setEmail(e.target.value)}
               required
             />{" "}
-            <label className="text-left">Password</label>
+            <label className="text-left text-gray-800">Password</label>
             <InputGroup>
               <Input
                 borderColor={"teal"}
@@ -97,12 +100,17 @@ function Signup() {
                 required
               />
               <InputRightElement width="4.5rem">
-                <Button h="1.75rem" size="sm" onClick={handleClick}>
+                <Button
+                  h="1.75rem"
+                  size="sm"
+                  textColor={"black"}
+                  onClick={handleClick}
+                >
                   {show ? "Hide" : "Show"}
                 </Button>
               </InputRightElement>
             </InputGroup>
-            <label className="text-left">Confirm Password</label>
+            <label className="text-left text-gray-800">Confirm Password</label>
             <InputGroup>
               <Input
                 borderColor={"teal"}
@@ -113,7 +121,12 @@ function Signup() {
                 required
               />
               <InputRightElement width="4.5rem">
-                <Button h="1.75rem" size="sm" onClick={confirmhandleClick}>
+                <Button
+                  h="1.75rem"
+                  size="sm"
+                  textColor={"black"}
+                  onClick={confirmhandleClick}
+                >
                   {showconfirm ? "Hide" : "Show"}
                 </Button>
               </InputRightElement>
@@ -127,9 +140,9 @@ function Signup() {
                 value="test"
                 onChange={checkVerify}
               />
-              <label className="ml-2 font-quicksand">
+              <label className="ml-2 font-quicksand text-gray-800">
                 I have read and agree with{" "}
-                <button onClick={onOpen} className="underline">
+                <button onClick={onOpen} className="underline text-gray-800">
                   Terms of Service
                 </button>
               </label>
@@ -139,6 +152,7 @@ function Signup() {
               <Button
                 colorScheme={"teal"}
                 type="submit"
+                textColor={"black"}
                 disabled={error || loading}
               >
                 {loading ? "Signing up..." : "Create Account"}
@@ -146,14 +160,14 @@ function Signup() {
             ) : (
               <>
                 {" "}
-                <Button className=" bg-teal-700" disabled>
+                <Button className=" bg-teal-700 " textColor={"black"} disabled>
                   Create Account
                 </Button>{" "}
               </>
             )}
-            <p className="text-lg text-left pt-4 font-bebos">
+            <p className="text-lg text-left pt-4 font-bebos text-gray-800">
               Have an Account?{" "}
-              <Link to="/signin" className=" underline">
+              <Link to="/signin" className="text-gray-800 underline">
                 Sign in
               </Link>
             </p>
@@ -162,7 +176,9 @@ function Signup() {
 
         <figure className=" ssm:mt-10  lg:mt-20">
           <p className=" tracking-tighter font-montserrat text-white ssm:text-lg lg:text-3xl">
-            Take a time to Read our Sustainable Development Goal
+            ` Take a time to read the 17 Sustainable Development Goals and see
+            some Implementations/practices in Cebu Technological Development -
+            University `
           </p>
         </figure>
       </figure>

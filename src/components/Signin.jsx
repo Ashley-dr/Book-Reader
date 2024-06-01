@@ -69,28 +69,33 @@ function Signin() {
       >
         <figure className=" ssm:mt-10  lg:mt-20">
           <p className=" tracking-tighter font-montserrat text-white ssm:text-lg lg:text-3xl">
-            Take a time to Read our Sustainable Development Goal
+            ` Take a time to read the 17 Sustainable Development Goals and see
+            some Implementations/practices in Cebu Technological Development -
+            University `
           </p>
         </figure>
         <figure className="ssm: m-1  lg:m-0  rounded-3xl bg-teal-50 pb-6">
           <article className="m-10">
-            <p className="text-3xl text-left  font-bebas">Account Sign in</p>
+            <p className="text-3xl text-left text-gray-800 font-bebas">
+              Account Sign in
+            </p>
           </article>
 
           <form
             className="ssm: px-8 sm:px-28 md:px-24 lg:px-20 grid gap-2 "
             onSubmit={SigninHandle}
           >
-            <label className="text-left">Username</label>
+            <label className="text-left text-gray-800">Email</label>
             <Input
               borderColor={"teal"}
               type="text"
+              placeholder="ex..@gmail.com"
               value={email}
               name="email"
               onChange={(e) => setEmail(e.target.value)}
               required
             />{" "}
-            <label className="text-left">Password</label>
+            <label className="text-left text-gray-800">Password</label>
             <InputGroup>
               <Input
                 borderColor={"teal"}
@@ -101,12 +106,17 @@ function Signin() {
                 required
               />
               <InputRightElement width="4.5rem">
-                <Button h="1.75rem" size="sm" onClick={handleClick}>
+                <Button
+                  h="1.75rem"
+                  size="sm"
+                  textColor={"black"}
+                  onClick={handleClick}
+                >
                   {show ? "Hide" : "Show"}
                 </Button>
               </InputRightElement>
             </InputGroup>
-            <div className="text-left">
+            <div className="text-left text-gray-800">
               {" "}
               <Checkbox
                 borderColor={"teal"}
@@ -115,9 +125,9 @@ function Signin() {
                 value="test"
                 onChange={checkVerify}
               />
-              <label className="ml-2 font-quicksand">
+              <label className="ml-2 font-quicksand text-gray-800">
                 I have read and agree with{" "}
-                <button onClick={onOpen} className="underline">
+                <button onClick={onOpen} className="underline text-gray-800">
                   Terms of Service
                 </button>
               </label>
@@ -125,6 +135,7 @@ function Signin() {
             {error && <p style={{ color: "red" }}>{error}</p>}
             {verify ? (
               <Button
+                textColor={"black"}
                 colorScheme={"teal"}
                 type="submit"
                 disabled={error || loading}
@@ -134,14 +145,14 @@ function Signin() {
             ) : (
               <>
                 {" "}
-                <Button className=" bg-teal-700" disabled>
+                <Button className=" bg-teal-700" textColor={"black"} disabled>
                   Sign in
                 </Button>{" "}
               </>
             )}
-            <p className="text-lg text-left pt-4 font-bebos">
+            <p className="text-lg text-left pt-4 font-bebos text-gray-800">
               Create an Account?{" "}
-              <Link to="/signup" className=" underline">
+              <Link to="/signup" className="text-gray-800 underline">
                 Sign up
               </Link>
             </p>
