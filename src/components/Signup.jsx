@@ -183,7 +183,7 @@ function Signup() {
             some Implementations/practices in
             <br />
             <p className="text-2xl mt-3 mb-2">
-              “ Cebu Technological Development - Danao Campus ”
+              “ Cebu Technological University - Danao Campus ”
             </p>
           </p>
         </figure>

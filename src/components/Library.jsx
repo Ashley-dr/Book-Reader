@@ -114,8 +114,11 @@ function Library() {
             <div className="rounded-b-2xl  pt-10  justify-items-center grid ssm:grid-cols-6 gap-1 md:grid-cols-6 mx-10">
               {JSONsdg.map((item) => (
                 <div key={item.id}>
-                  <button onClick={() => handleClickSdg(item.id)}>
-                    <img src={item.image} alt="" className="rounded-md" />
+                  <button
+                    className="transition ease-in-out  bg-blue-500 hover:-translate-y-1 hover:scale-110  "
+                    onClick={() => handleClickSdg(item.id)}
+                  >
+                    <img src={item.image} alt="" className="rounded-md " />
                   </button>
                 </div>
               ))}
@@ -149,7 +152,10 @@ function Library() {
                   {item.title}
                 </p>
 
-                <button onClick={() => handleClick(item.id)}>
+                <button
+                  className="transition ease-in-out   hover:-translate-y-1 hover:scale-110  "
+                  onClick={() => handleClick(item.id)}
+                >
                   <img
                     src={item.coverImage}
                     className="bg-cover rounded-lg m-1 ssm:w-40 ssm:h-60 ssm: ssm:mx-0 ssm:p-1 md:p-0 md:mx-2 md:h-80 md:w-56"

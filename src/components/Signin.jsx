@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import { signIn } from "../auth";
 import { signUp } from "../auth";
+import { auth } from "../../Firebase";
+import { signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate, Link } from "react-router-dom";
 import {
   Button,
@@ -44,15 +46,21 @@ function Signin() {
 
     setError(false);
     setLoading(true);
-    try {
-      await signIn(email, password);
-      alert(`Signed in successfully: ${email}`);
-    } catch (error) {
-      console.log("Sign in failed");
-    } finally {
-      setLoading(false);
-      navigate("/library");
-    }
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        // Signed in
+        const user = userCredential.user;
+        navigate("/library");
+        alert(`Successfully sign in: ${user.email}`);
+        console.log(user);
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        console.log(errorCode, errorMessage);
+        alert(error);
+        navigate("/signin");
+      });
   };
   function checkVerify(e) {
     setVerify(e.target.value);
@@ -73,7 +81,7 @@ function Signin() {
             some Implementations/practices in
             <br />
             <p className="text-2xl mt-3 mb-2">
-              “ Cebu Technological Development - Danao Campus ”
+              “ Cebu Technological University - Danao Campus ”
             </p>
           </p>
         </figure>
