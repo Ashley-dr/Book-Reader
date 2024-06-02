@@ -174,11 +174,14 @@ function Signup() {
           </form>
         </figure>
 
-        <figure className=" ssm:mt-10  lg:mt-20">
-          <p className=" tracking-tighter font-montserrat text-white ssm:text-lg lg:text-3xl">
+        <figure className=" bg-[#0000009e] pt-5 ssm:pt-10  lg:pt-20">
+          <p className=" tracking-tighter font-montserrat text-teal-100 ssm:text-lg lg:text-3xl">
             ` Take a time to read the 17 Sustainable Development Goals and see
-            some Implementations/practices in Cebu Technological Development -
-            University `
+            some Implementations/practices in
+            <br />
+            <p className="text-2xl mt-3 mb-2">
+              “ Cebu Technological Development - Danao Campus ”
+            </p>
           </p>
         </figure>
       </figure>

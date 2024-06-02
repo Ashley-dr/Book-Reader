@@ -67,11 +67,14 @@ function Signin() {
         style={{ backgroundImage: `url(${image})` }}
         className="justify-center  bg-no-repeat bg-cover bg-center rounded-3xl mx-5  md:shrink-0 grid grid-cols-1 ssm:grid-cols-1 ssm: mt-5 ssm: mb-7 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:mt-12 lg:mb-0 "
       >
-        <figure className=" ssm:mt-10  lg:mt-20">
-          <p className=" tracking-tighter font-montserrat text-white ssm:text-lg lg:text-3xl">
+        <figure className=" bg-[#0000009e] pt-5 ssm:pt-10  lg:pt-20">
+          <p className=" tracking-tighter font-montserrat text-teal-100 ssm:text-lg lg:text-3xl">
             ` Take a time to read the 17 Sustainable Development Goals and see
-            some Implementations/practices in Cebu Technological Development -
-            University `
+            some Implementations/practices in
+            <br />
+            <p className="text-2xl mt-3 mb-2">
+              “ Cebu Technological Development - Danao Campus ”
+            </p>
           </p>
         </figure>
         <figure className="ssm: m-1  lg:m-0  rounded-3xl bg-teal-50 pb-6">

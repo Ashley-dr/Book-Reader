@@ -26,7 +26,8 @@ import {
   ModalCloseButton,
 } from "@chakra-ui/react";
 import JSONFile from "./JSON/data.file.books.json";
-import sdg from "../assets/sdg.jpg";
+import JSONsdg from "./JSON/data.file.sdg.json";
+
 import { CiSquareQuestion } from "react-icons/ci";
 import { TbLogout2 } from "react-icons/tb";
 import { MdDarkMode } from "react-icons/md";
@@ -36,6 +37,11 @@ import { CiMenuFries } from "react-icons/ci";
 function Library() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const {
+    isOpen: modalOpen,
+    onOpen: modalOnOpen,
+    onClose: modalOnClose,
+  } = useDisclosure();
+  const {
     isOpen: isFull,
     onOpen: onFull,
     onClose: closeFull,
@@ -44,7 +50,9 @@ function Library() {
   const [placement, setPlacement] = useState("left");
   const [size, setSize] = useState("");
   const [books, setBooks] = useState([]);
+  const [sdgData, setSdgData] = useState([]);
   const { colorMode, toggleColorMode } = useColorMode();
+
   const [bookId, setBookId] = useState(null);
   const navigate = useNavigate();
 
@@ -52,6 +60,11 @@ function Library() {
     const item = books.find((item) => item.id === id);
     setBookId(item);
     onFull();
+  };
+  const handleClickSdg = (id) => {
+    const item = JSONsdg.find((item) => item.id === id);
+    setSdgData(item);
+    modalOnOpen();
   };
   const sizes = ["full"];
   const logOut = async () => {
@@ -97,13 +110,36 @@ function Library() {
         </article>
 
         <div className="bg-gradient-to-br from-[#2481b8] via-[#2fbb9d] to-[#80D0C7]">
-          <div className="pt-10">
-            <img
-              src={sdg}
-              className="rounded-lg ml-auto mr-auto block ssm:h-80 md:h-96 "
-            ></img>
+          <div className="rounded-b-2xl  pt-10  justify-items-center grid grid-cols-2 gap-1 ssm:grid-cols-1 md:grid-cols-2">
+            <div className="rounded-b-2xl  pt-10  justify-items-center grid ssm:grid-cols-6 gap-1 md:grid-cols-6 mx-10">
+              {JSONsdg.map((item) => (
+                <div key={item.id}>
+                  <button onClick={() => handleClickSdg(item.id)}>
+                    <img src={item.image} alt="" className="rounded-md" />
+                  </button>
+                </div>
+              ))}
+            </div>
+
+            <div className="bg-gray-800 rounded-md   p-5 mt-6 ssm:mx-2 ssm:mr-2 md:mx-0 md:mr-10">
+              <p className="text-justify ssm:text-base md:text-lg">
+                The 17 Sustainable Development Goals (SDGs): were adopted by all
+                United Nations Member States in 2015 as a universal call to
+                action to end poverty, protect the planet, and ensure prosperity
+                for all. These goals address a wide range of issues such as
+                poverty, hunger, health, education, gender equality, clean
+                water, and energy to name a few.
+                <br /> Implementing these goals requires collective action from
+                governments, businesses, civil society, and individuals.
+                CTU-Danao Campus is committed to contributing to the achievement
+                of the SDGs through various practices and initiatives. From
+                promoting sustainable practices on campus to engaging students
+                in community service projects, CTU-Danao is working towards a
+                more sustainable future for all.
+              </p>
+            </div>
           </div>
-          <div className="rounded-b-2xl  pt-10  justify-items-center grid grid-cols-2 gap-1 md:grid-cols-4 ">
+          <div className="rounded-b-2xl  pt-20  justify-items-center grid grid-cols-2 gap-1 md:grid-cols-4 ">
             {JSONFile.map((item) => (
               <div
                 key={item.id}
@@ -362,6 +398,43 @@ function Library() {
           </DrawerBody>
         </DrawerContent>
       </Drawer>
+
+      {/* Modal for SDG links */}
+
+      <Modal isOpen={modalOpen} onClose={modalOnClose}>
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>{sdgData && <>{sdgData.title}</>}</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody>
+            {sdgData ? (
+              <div className=" font-bebos">
+                <p className="pb-2">{sdgData.name1}</p>
+
+                <a
+                  className=" border-dashed border-b-2 bg-gray-800"
+                  href={sdgData.link1}
+                  target="_blank"
+                >
+                  {sdgData.link1}
+                </a>
+
+                <p className="pt-6">{sdgData.name2}</p>
+                <a
+                  className=" border-dashed border-b-2 bg-gray-800"
+                  href={sdgData.link2}
+                  target="_blank"
+                >
+                  {sdgData.link2}
+                </a>
+              </div>
+            ) : (
+              <></>
+            )}
+          </ModalBody>
+          <ModalFooter></ModalFooter>
+        </ModalContent>
+      </Modal>
     </div>
   );
 }
