@@ -412,7 +412,7 @@ function Library() {
                 <p className="pb-2">{sdgData.name1}</p>
 
                 <a
-                  className=" border-dashed border-b-2 bg-gray-800"
+                  className="text-white border-dashed border-b-2 bg-gray-800"
                   href={sdgData.link1}
                   target="_blank"
                 >
@@ -421,7 +421,7 @@ function Library() {
 
                 <p className="pt-6">{sdgData.name2}</p>
                 <a
-                  className=" border-dashed border-b-2 bg-gray-800"
+                  className="text-white border-dashed border-b-2 bg-gray-800"
                   href={sdgData.link2}
                   target="_blank"
                 >
