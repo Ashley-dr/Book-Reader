@@ -122,7 +122,7 @@ function Library() {
             </div>
 
             <div className="bg-gray-800 rounded-md   p-5 mt-6 ssm:mx-2 ssm:mr-2 md:mx-0 md:mr-10">
-              <p className="text-justify ssm:text-base md:text-lg">
+              <p className="text-justify text-white ssm:text-base md:text-lg">
                 The 17 Sustainable Development Goals (SDGs): were adopted by all
                 United Nations Member States in 2015 as a universal call to
                 action to end poverty, protect the planet, and ensure prosperity

@@ -92,6 +92,7 @@ function Signin() {
             <Input
               borderColor={"teal"}
               type="text"
+              textColor={"black"}
               placeholder="ex..@gmail.com"
               value={email}
               name="email"
@@ -104,6 +105,7 @@ function Signin() {
                 borderColor={"teal"}
                 type={show ? "text" : "password"}
                 value={password}
+                textColor={"black"}
                 name="password"
                 onChange={(e) => setPassword(e.target.value)}
                 required

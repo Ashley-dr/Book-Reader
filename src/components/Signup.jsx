@@ -84,6 +84,7 @@ function Signup() {
               borderColor={"teal"}
               type="text"
               placeholder="ex..@gmail.com"
+              textColor={"black"}
               value={email}
               name="email"
               onChange={(e) => setEmail(e.target.value)}
@@ -96,6 +97,7 @@ function Signup() {
                 type={show ? "text" : "password"}
                 value={password}
                 name="password"
+                textColor={"black"}
                 onChange={(e) => setPassword(e.target.value)}
                 required
               />
@@ -117,6 +119,7 @@ function Signup() {
                 type={showconfirm ? "text" : "password"}
                 value={confirmpassword}
                 name="confirmpassword"
+                textColor={"black"}
                 onChange={(e) => setconfirmPassword(e.target.value)}
                 required
               />
